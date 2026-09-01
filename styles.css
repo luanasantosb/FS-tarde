@@ -1,3 +1,99 @@
 @charset "UTF-8";
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ======== CABEÇALHO ======== */
+
+.cabecalho {
+    background-color: rgb(38, 164, 210);
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.logo-residencia {
+    max-width: 100px;
+    padding: 0 25px;
+}
+
+.container-botoes {
+    display: flex;
+    gap: 25px;
+    color: white;
+    padding: 0 25px;
+    font-size: 1.2rem;
+}
+
+.container-botoes a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* ======= HOME ======= */
+
+#home {
+    display: flex;
+    justify-content: space-between;
+    padding:  70px;
+}
+
+.card-home {
+    max-width: 600px;
+}
+
+.titulo {
+    font-family: sans-serif;
+    font-size: 3.3rem;
+}
+
+.descricao-titulo {
+    font-family: monospace;
+    font-size: 1.2rem;
+}
+
+.local-turno {
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+
+.descricao-local-turno {
+    font-family: monospace;
+    font-size: 1rem;
+}
+
+.container-tecnologias {
+    display: flex;
+    gap: 45px; 
+    padding-top: 100px; 
+}
+
+.logo {
+    max-width: 90px;
+}
+
+.card-turma {
+    border: 2px solid rgb(223, 220, 220);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.196);
+    border-radius: 10px;
+    
+}
+
+.foto-turma {
+    max-width: 600px;
+    padding: 20px;
+}
+
+
+.descricao-foto {
+    text-align: center;
+    padding: 10px;
+    font-family: monospace;
+    font-size: 1rem;
+
+}
 
