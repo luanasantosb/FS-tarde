@@ -23,14 +23,18 @@ body {
 .container-botoes {
     display: flex;
     gap: 25px;
-    color: white;
     padding: 0 25px;
     font-size: 1.2rem;
+    transition: 0.3s;
 }
 
 .container-botoes a {
     text-decoration: none;
     color: white;
+}
+
+.botao:hover {
+    transform: translateY(-4px);
 }
 
 
@@ -39,7 +43,7 @@ body {
 #home {
     display: flex;
     justify-content: space-between;
-    padding:  70px;
+    padding:  60px;
 }
 
 .card-home {
@@ -79,8 +83,7 @@ body {
 .card-turma {
     border: 2px solid rgb(223, 220, 220);
     box-shadow: 0 6px 14px rgba(0, 0, 0, 0.196);
-    border-radius: 10px;
-    
+    border-radius: 10px;   
 }
 
 .foto-turma {
@@ -94,6 +97,47 @@ body {
     padding: 10px;
     font-family: monospace;
     font-size: 1rem;
-
 }
+
+
+/* ======= FILTROS ======= */
+
+.filtros {
+    margin-top: 50px;
+}
+
+.container-filtros {
+    display: flex;
+    gap: 20px;
+    padding: 20px 70px;
+}
+
+.container-filtros a {
+    text-decoration: none;
+}
+
+.botao-filtro {
+    border: none;
+    background-color: rgb(38, 164, 210);
+    color: white;
+    padding: 10px 35px;
+    border-radius: 20px;
+    font-family: monospace;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.botao-filtro:hover {  
+    transform: translateY(-4px);
+}
+
+
+
+/* CARROSSEL */
+
+.carrossel-alunos {
+    background-color: rgb(38, 164, 210);
+}
+
+
 
