@@ -9,3 +9,8 @@ function handleScroll() {
 }
 handleScroll();
 window.addEventListener("scroll", handleScroll, { passive: true });
+
+
+function abrirCard(){
+  alert("Teste Botão")
+}
